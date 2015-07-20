@@ -1,6 +1,6 @@
-(defproject lein-marginalia "0.8.1-SNAPSHOT"
+(defproject michaelblume/lein-marginalia "0.9.0"
   :description "Leiningen plugin for Marginalia."
   :url "http://github.com/fogus/marginalia"
-  :dependencies [[marginalia "0.8.1-SNAPSHOT"]]
+  :dependencies [[michaelblume/marginalia "0.9.0"]]
   :eval-in :leiningen)
 

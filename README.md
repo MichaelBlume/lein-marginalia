@@ -1,20 +1,26 @@
 # lein-marginalia
 
-A [Leiningen](https://github.com/technomancy/leiningen) plugin for [Marginalia](https://github.com/gdeer81/marginalia).  You would most likely use this rather than Marginalia directly.
+A [Leiningen](https://github.com/technomancy/leiningen) plugin for [Marginalia](https://github.com/MichaelBlume/marginalia).  You would most likely use this rather than Marginalia directly.
+
+## Fork
+
+This is a fork of [lein-marginalia](https://github.com/gdeer81/lein-marginalia)
+which fixes [compatibility with Clojure
+1.7](https://github.com/gdeer81/marginalia/issues/153).
 
 ## Installation
 
 ### Leiningen 2
 
-Add `[[lein-marginalia "0.8.0"]]` to the `:plugins` entry in
+Add `[[michaelblume/lein-marginalia "0.9.0"]]` to the `:plugins` entry in
 either your project.clj file or your `:user` profile.
 
 ### Leiningen 1
 
-Add `[lein-marginalia "0.8.0"]` to your project.clj's
+Add `[michaelblume/lein-marginalia "0.9.0"]` to your project.clj's
 `:dev-dependencies` or, install lein-marginalia as a user-level
 leiningen plugin by running
-`$ lein plugin install lein-marginalia 0.8.0`.
+`$ lein plugin install michaelblume/lein-marginalia 0.9.0`.
 
 ## Usage
 
